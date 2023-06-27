@@ -15,5 +15,5 @@ jobs:
     - name: Output
       id: output_1
       run: |
-        echo "output 1"
+        echo "${{ secrets.TEST_VAR }}"
       shell: bash
