@@ -12,7 +12,7 @@ jobs:
     environment: production
     steps:
     - uses: actions/checkout@v3
-    - name: output
+    - name: Output
       id: output_1
       run: |
         echo "output 1"
