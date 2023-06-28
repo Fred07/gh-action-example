@@ -1,4 +1,8 @@
 name: Staging CI
+author: Howard
+description: |
+  This is a test workflow to test the environment variable
+  in the staging environment.
 
 on:
   push: 
